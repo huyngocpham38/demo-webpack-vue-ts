@@ -21,7 +21,7 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [
-                    'vue-style-loader',
+                    'style-loader',
                     'css-loader'
                 ]
             },
@@ -36,7 +36,7 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
-                    'vue-style-loader',
+                    'style-loader',
                     'css-loader',
                     'sass-loader'
                 ]
